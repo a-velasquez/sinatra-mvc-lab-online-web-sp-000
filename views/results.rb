@@ -1,1 +1,1 @@
-<%=@piglatinized %>
+<%= @piglatinized %>
