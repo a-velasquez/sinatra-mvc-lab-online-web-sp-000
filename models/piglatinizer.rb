@@ -9,7 +9,6 @@ class PigLatinizer
   end
 
   def piglatinize_word(word)
-      # word starts with vowel
       if !consonant?(word[0])
         word = word + "w"
       elsif consonant?(word[0]) && consonant?(word[1]) && consonant?(word[2])
